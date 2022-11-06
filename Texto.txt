@@ -1,0 +1,66 @@
+#include <stdio.h>
+
+abertura(int m){
+
+printf("Tabuada do %d\n\n", multiplicador ");
+}
+
+int main() {
+
+int multiplicador = 2;
+
+abertura(multiplicador)
+
+for (int i =1; 1<=10; i++){
+	printf("%d x %d = %d\n" , multiplicador, i , multiplicador * i);
+}
+}
+
+
+void soma(int numeros[10]) {
+    int total = 0;
+    for(int i = 0; i < 10; i++) {
+        total += numeros[i];
+    }
+    printf("O total é %d", total);
+
+    void potencia(int* resultado, int a, int b) {
+    *resultado = 1;
+    for(int i = 0; i < b; i++) {
+        *resultado = *resultado * a;
+    }
+}
+*****************************************************************verificacao de chute*************************************
+for (int i = 0; i < strlen(palavrasecreta); i++) {
+			int achou = 0;
+
+			for (int j = 0; j < tentativas; j++) {
+				if (chutes[j] == palavrasecreta[i]) {
+					achou = 1;
+					break;
+				}
+			}
+   ***********************************************************************************************
+
+   int nums[3];
+nums[0] = 10;
+nums[1] = 20;
+nums[2] = 30;
+
+int total = soma(nums, 3);
+
+int soma(int* nums, int tam) {
+    int total = 0;
+
+    for(int i = 0; i < tam; i++) {
+        total += nums[i];
+    }
+
+    return total;
+}
+**************  *********************************   ******************************************  ************************
+
+
+
+
+
